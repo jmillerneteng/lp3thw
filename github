@@ -1,0 +1,19 @@
+!# clone online repo locally
+git clone https://github.com/jmillerneteng/lp3thw.git
+
+!# initialize git to use local dir
+git init
+
+!# add files to the lew local repo to be staged for first commit
+git add .
+
+!# setup remote repo.  must be in the root of the local folder
+git remote add origin https://github.com/jmillerneteng/lp3thw.git
+
+!# view remote repo that is setup
+git remote -v
+
+!# push files locally to remoteland
+git push origin master
+
+git push --repo https://github.com/jmillerneteng/lp3thw.git
