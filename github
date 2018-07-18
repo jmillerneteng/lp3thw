@@ -8,12 +8,17 @@ git init
 git add .
 
 !# setup remote repo.  must be in the root of the local folder
-git remote add origin https://github.com/jmillerneteng/lp3thw.git
+git remote add {origin unique name} https://github.com/jmillerneteng/lp3thw.git
 
 !# view remote repo that is setup
 git remote -v
 
 !# push files locally to remoteland
-git push origin master
+git push {origin} master
 
 git push --repo https://github.com/jmillerneteng/lp3thw.git
+
+!# git log view all on one line
+!# https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
+$ git log --pretty=oneline
+
