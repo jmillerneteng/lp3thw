@@ -12,3 +12,10 @@ print(f"I sayz: {x}")
 print(f"I also said '{y}' but before i said '{x}'")
 
 hilarious = False
+
+joke_evaluation = "is this funny? {}"
+print(joke_evaluation.format(hilarious))
+w = "left side"
+e = " right side"
+
+print(w + e)
