@@ -2,7 +2,7 @@ def submask(f):
     print("subnetting now...")
     return f
 
-def calcsubmask(f):
+def calcsubmask(f) :
     print("calculating now...")
     if f == 24:
         sm = "255.255.255.0"
@@ -19,4 +19,4 @@ calsubnetmask = calcsubmask((int(input("cidr: "))))
 
 #print(f"this is {subnetmask}")
 
-print(f"this is the actual sm: {calsubnetmask}")
+print(f"this isthe actual sm: {calsubnetmask}")
