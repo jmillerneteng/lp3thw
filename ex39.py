@@ -22,6 +22,7 @@ cities['CA'] = 'San Jose'
 cities['AZ'] = 'Phonix'
 cities['TX'] = "BigD"
 
+
 print('-' * 10)
 print("Washington state has: ", cities['WA'])
 print("Arizonaz state has: ", cities['AZ'])
@@ -49,5 +50,5 @@ if not state:
     print("Sorry, TX not legit")
 
 city = cities.get((state_get), 'Does not compute here, should see this below')
-print(f"The city for the state 'tx' is: {city}")
+print(f"The city for the state {state_get} is: {city}")
 

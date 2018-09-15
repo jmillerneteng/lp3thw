@@ -15,4 +15,3 @@ cities['NY'] = 'Yonkerville'
 print("OR has:", cities['OR'])
 print("WA has:", cities['WA'])
 print("NY has:", cities['NY'])
-
